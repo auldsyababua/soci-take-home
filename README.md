@@ -9,18 +9,12 @@ This is intended to give us some idea of your abilities in the following areas:
 - Layout/design and CSS
 - Problem-solving
 
-Suggested technical resources:
-
-- backbonejs.org
-- underscorejs.org
-- jQuery.com
 
 
 Within the time allotted, do your best to fulfill the following specification using the existing code here as a template.
 
 Please include a document detailing your thought process while working on this, and a rough estimate of your time spent (in hours).
 
-Do not include or make use of any additional javascript libraries.
 
 You may use any other resources you like, and you may contact your interviewer for additional information if the specification is unclear.
 
@@ -39,7 +33,6 @@ As your interviewer, I want to see and be able to interact with all of the sched
     - Number of "rejected" posts
         - These are posts with `customer_approved` or `manager_approved` (or both) equal to -1
 - There should be a PAGED, SORTABLE, SEARCHABLE list of scheduled posts:
-    - Assume that you will always have a complete set of local data (don't worry about service calls)
     - Page limit of 5 items
     - Paging controls:
         - Next page
@@ -70,3 +63,6 @@ As your interviewer, I want to see and be able to interact with all of the sched
             - An indication of its approval status
         - "Hover" on a list item should show a "delete" button
             - "Click" on the delete button should remove the post from both the collection and the list.
+
+
+I first began by cleaning up the organization of the template for better workflow. 
